@@ -1,0 +1,71 @@
+Introduction:
+- Git is a version control system, track code change and coding collaboration.
+
+Feature:
+- Respositories
+- Clone
+- Staging and Committing
+- Branch and Merge 
+- Pull [get latest]
+- Push [check in]
+
+1. git --version
+   	Check git version.
+
+2. git init
+   	Initialize Git.
+
+3. git status
+   Check the status of the Git.
+
+4. git add {fileName}.{fileExtension}
+   	Add file to the Staging Environment.
+
+5. git add --all
+   	Add all files in current directory to the Staging Environment.
+
+6. git commit -m "{commitComment}"
+	Commit from stage to repo with message(-m).
+
+7. git status --short
+   	Check the status of the Git.
+	M - Modified files
+	A - Files added to stage
+	D - Deleted Files
+	?? - Untracked files.
+
+8. git log
+   	View history of commits for a repository.
+
+9. git {command} -help
+   	List all options for the command
+
+10. git help --all
+	List all commands.
+
+11. git branch {branchName}
+	Create new branch.
+
+12. git branch
+	Check all branches.
+
+13. git checkout {branchName}
+	Move from current branch to the specifies branch.
+    git checkout -b {branchName}
+
+14. git merge {branchName}
+	Merge current branch with the {branchName}.
+
+15. git branch -d {branchName}
+	Delete the branch.
+
+
+/////  normal windows command
+mkdir  - create directory
+cd {directoryPath}- go to the directory
+dir - listing the directories and files within the current directory
+cls - clear screen command prompt
+q - quit
+/////   
+
+// Reference : https://www.w3schools.com/git/default.asp?remote=github
