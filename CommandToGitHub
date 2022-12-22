@@ -1,0 +1,26 @@
+Github
+
+Command to interact with GitHub
+
+1. git remote add origin {gitHubRepoURL}
+	adding a remote repository.
+
+2. git push --set-upstream origin master
+	push master branch to origin URL.
+
+3. git fetch origin
+	Update the changes from GitHub.
+
+4. git diff origin/master
+	Show different between master and origin/master.
+	
+4. git merge {remoteBranch}/{remoteRepoName}
+	Commbine current branch with a specified branch.
+
+5. git branch -a
+	List all local and remote branches
+   git branch -r
+	List all remote branchs only.
+
+6. git push origin {branchName}
+	Push branch from local to GitHub
